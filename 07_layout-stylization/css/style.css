@@ -207,6 +207,16 @@ font-family: "Muller";
   color: #333333;
 }
 
+.card-header-bottom {
+  margin-bottom: 15px;
+  padding-left: 40px;
+  width: 332px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff; 
+}
+
 .card-link {
   padding-left: 40px;
 }
@@ -246,6 +256,26 @@ font-family: "Muller";
   border-radius: 15px;
 }
 
+.special-card-content {
+  padding-left: 40px;
+  padding-bottom: 47px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #c0c0b4;
+}
+
+.special-card-content2 {
+  padding-left: 40px;
+  padding-bottom: 47px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #c0c0b4;
+}
+
 /*Info*/
 .info-container {
     max-width: 1170px;
@@ -259,7 +289,7 @@ font-family: "Muller";
 
 .info-header {
   margin-left: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   font-size: 40px;
   line-height: 40px;
   font-weight: 200;
@@ -267,6 +297,7 @@ font-family: "Muller";
 }
 
 .info-text {
+  margin-bottom: 75px;
   line-height: 200%;
   font-size: 16px;
   font-weight: normal;
@@ -319,30 +350,10 @@ font-family: "Muller";
   color: #ffffff;
 }
 
-.special-card-content {
-  padding-left: 40px;
-  padding-bottom: 47px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-}
-
-.special-card-content2 {
-  padding-left: 40px;
-  padding-bottom: 47px;
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-}
-
 .services-list {
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .services-list-item {
@@ -351,15 +362,16 @@ font-family: "Muller";
   width: 573px;
   flex: 1 1 40%;
   background-color: #ffff;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
 .services-list-link {
   padding-right: 15px;
- padding-left: 45px;
- background: no-repeat url("../img/Rectangle\ 2.svg");
- background-position: right;
+  padding-left: 45px;
+  font-size: 20px;
+  background: no-repeat url("../img/Rectangle\ 2.svg");
+  background-position: right;
 }
 
 .services-list-text {
@@ -525,6 +537,14 @@ font-family: "Muller";
 
 .placement-by {
   margin-left: 45px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.price {
+  font-weight: bolder;
+  font-size: 23px;
+  color: #000000;
 }
 
 .placement-card-text {
@@ -538,6 +558,7 @@ font-family: "Muller";
 .placement-city-header {
   margin-left: 45px;
   margin-bottom: 20px;
+  color: #999999;
 }
 
 .placement-card-btn {
