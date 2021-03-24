@@ -219,9 +219,7 @@ font-family: "Muller";
 
 .card-link {
   padding-left: 40px;
-}
-
-.special-card-link {
+  padding-right: 15px;
   width: 145px;
   background: no-repeat url("../img/Rectangle\ 2.svg");
   background-position: right;
