@@ -606,3 +606,78 @@ border: 1px solid #CC9933;
 border-radius: 10px;
 cursor: pointer;
 }
+
+/*want_a_tour*/
+.want_a_tour-conteiner {
+  margin-left: 124px;
+  margin-right: auto;
+  margin-bottom: 70px;
+  padding-top: 5px;
+  max-width: 1170px;
+  height: 274px;
+  border-radius: 15px;
+  background-color: #e0e0e0;
+}
+.want_a_tour-header {
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 200;
+  color: #333333;
+}
+
+.want_a_tour-select-conteiner {
+  max-width: 1080px;
+  margin-left: 45px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  background-color: #ffff;
+  border-radius: 15px;
+  height: 106px;
+  left: 1118px;
+  top: 100px;
+}
+
+.want_a_tour-form {
+  margin-left: 28px;
+}
+
+.want_a_tour-btn {
+  margin-right: 45px;
+display: inline-block;
+width: 129px;
+height: 50px;
+line-height: 1;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+color: #CC9933;
+background-color: #ffff;
+border: 1px solid #CC9933;
+border-radius: 10px;
+cursor: pointer;
+}
+/*contacts*/
+.contacts-header {
+margin-left: 40px;
+margin-bottom: 30px;
+font-size: 40px;
+line-height: 40px;
+font-weight: 200;
+color: #333333;
+}
+
+.contacts-description {
+  max-width: 1168px;
+  height: 618px;
+  border-radius: 15px;
+  background-color: #ffff;
+}
+
+.contacts-description-img {
+width: 623px;
+height: 528px;
+}
