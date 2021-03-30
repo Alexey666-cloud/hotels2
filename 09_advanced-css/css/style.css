@@ -100,6 +100,12 @@ font-family: "Muller";
   flex-wrap: nowrap;
   background-image: url("../img/Vector.svg");
   background-repeat: no-repeat;
+  -webkit-transition: .3s ease;
+}
+
+.header-link:hover {
+  transition: 0.3s;
+  transform: translateX(25px);
 }
 
 .nav-btn1 {
@@ -116,6 +122,7 @@ font-family: "Muller";
   border: 1px solid #CC9933;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: .3s ease;
 }
 
 .nav-btn2 {
@@ -131,7 +138,18 @@ font-family: "Muller";
   border: 1px solid #CC9933;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: .3s ease;
 }
+.nav-btn1:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0 10px #CC9933;
+}
+
+.nav-btn2:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0 10px #CC9933;
+}
+
 
 .header-btn {
   display: flex;
@@ -173,6 +191,11 @@ font-family: "Muller";
 
 .nav-item {
   margin-right: 15px;
+  -webkit-transition: .3s ease;
+}
+.nav-item:hover {
+  transition: 0.3s;
+  transform: translateY(5px);
 }
 
 .nav-item:not(:last-child) {
@@ -214,6 +237,15 @@ font-family: "Muller";
   font-weight: 700;
   line-height: 40px;
   color: #ffffff;
+}
+
+.special-card-link {
+-webkit-transition: .3s ease;
+}
+
+.special-card-link:hover {
+  transition: 0.3s;
+  transform: translateX(20px);
 }
 
 .card-link {
@@ -372,6 +404,15 @@ font-family: "Muller";
   font-size: 20px;
   background: no-repeat url("../img/Rectangle2.svg");
   background-position: right;
+}
+
+.services-link {
+-webkit-transition: .3s ease;
+}
+
+.services-link:hover {
+  transition: 0.3s;
+  transform: translateX(20px);
 }
 
 .services-list-text {
@@ -601,6 +642,12 @@ font-family: "Muller";
 
 .placement-card-btn {
   margin-left: 45px;
+  -webkit-transition: .3s ease;
+}
+
+.placement-card-btn:hover {
+transition: 0.3s;
+box-shadow: 0px 0 10px #CC9933;
 }
 
 .placement-card-link {
@@ -731,7 +778,13 @@ font-family: "Muller";
   border: 1px solid #CC9933;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: .3s ease;
 }
+
+.want_a_tour-btn:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0 10px #CC9933;
+  }
 
 /*contacts*/
 .contacts-header {
@@ -887,6 +940,12 @@ font-weight: 700;
   border: 1px solid #CC9933;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: .3s ease;
+}
+
+.contacts-btn:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0 10px #CC9933;
 }
 
 /*footer*/
@@ -973,4 +1032,20 @@ margin-top: 44px;
 .footer-links {
   list-style: none;
   opacity: .5;
+  -webkit-transition: .3s ease;
 }
+
+.footer-links:hover {
+  transition: 0.3s;
+  transform: rotate(360deg);
+}
+
+.agreement {
+-webkit-transition: .3s ease;
+}
+
+.agreement:hover {
+  transition: transform .3s linear;
+  transform: translateX(20px);
+}
+
